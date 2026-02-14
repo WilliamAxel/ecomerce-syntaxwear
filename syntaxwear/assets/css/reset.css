@@ -20,6 +20,12 @@ ol[class] {
   list-style: none;
 }
 
+ul,ol{
+  list-style: none;
+}
+ a{
+  text-decoration: none;
+  }
 /* Set core body defaults */
 body {
   min-height: 100vh; /* take full height */
