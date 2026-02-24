@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/hero.css">
     <link rel="stylesheet" href="/assets/css/product-category.css">
+    <link rel="stylesheet" href="/assets/css/grid.css">
 </head>
 
 <body>
@@ -54,7 +55,7 @@
             </ul>
         </nav>
     </header>
-
+<main>
     <!-- seção hero -->
     <section class="hero-section">
         <!-- hero content -->
@@ -106,17 +107,90 @@
     </section>
 
     <!-- grid com produtos em destaque -->
-    <section class="featured-products">
+    <section class="grid-section">
         <!-- products grid -->
-    </section>
-
-    <!-- rodapé com informações de contato e links -->
-    <footer>
-        <div class="contato">
-            <!-- informações de contato -->
+        <div class="card top1">
+                <div class="top1-content">
+                    <h3 class="card-title">Krypton One</h3>
+                    <p class="card-subtitle">Estilo Urbano com atitude</p>
+                    <div class="cta-group">
+                        <a href="#" class="btn btn-outline">Feminino</a>
+                        
+                        <a href="#" class="btn btn-filled">Masculino</a>
+                    </div>
+                </div>
         </div>
-        <div class="links">
-            <!-- links úteis -->
+        <div class="card top2"></div>
+        <div class="card midL"></div>
+        <div class="card midR"></div>
+        <div class="card bottomL"></div>
+        <div class="card bottomR"></div>
+
+    </section>
+</main>
+    <!-- rodapé com informações de contato e links -->
+    <footer class="footer">
+        <div class="footer-newsletter">
+            <h2>Inscreva-se em nosso e-mail</h2>
+            <form class="newsletter-form" action="#" method="post">
+                <input type="email" name="email" placeholder="email@email.com" required>
+                <button type="submit" class="btn btn-filled">OK</button>
+            </form>
+            <div class="social-media">
+                <span>Redes sociais</span>
+                <ul class="social-list">
+                    <li><a href="#" aria-label="Instagram"><img src="/assets/images/icons/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="#" aria-label="TikTok"><img src="/assets/images/icons/tiktok.svg" alt="TikTok"></a></li>
+                    <li><a href="#" aria-label="YouTube"><img src="/assets/images/icons/youtube.svg" alt="YouTube"></a></li>
+                    <li><a href="#" aria-label="Facebook"><img src="/assets/images/icons/facebook.svg" alt="Facebook"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <div class="column">
+                <h3>Masculino</h3>
+                <ul>
+                    <li><a href="#">Casual</a></li>
+                    <li><a href="#">Esporte</a></li>
+                    <li><a href="#">Moderno</a></li>
+                    <li><a href="#">Futurista</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Feminino</h3>
+                <ul>
+                    <li><a href="#">Casual</a></li>
+                    <li><a href="#">Esporte</a></li>
+                    <li><a href="#">Moderno</a></li>
+                    <li><a href="#">Futurista</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Outlet</h3>
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Nossas lojas</h3>
+                <ul>
+                    <li><a href="#">Loja física</a></li>
+                    <li><a href="#">Loja online</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Sobre</h3>
+                <ul>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Missão</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <p>Copyright. All Rights Reserved.</p>
         </div>
     </footer>
 </body>

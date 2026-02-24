@@ -1,21 +1,22 @@
 .header{
-    background-color: rgb(255, 255, 255);
     position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    width: calc(100% - 40px);
-    border-radius: 15px;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.38rem 1.25rem;
+	top: 60px;
+	left: 50%;
+	transform: translate(-50%);
+	width: calc(100% - 210px);
+	border-radius: 15px;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.265rem 1.25rem;
+	background-color: #ffffff;
+    max-width: 1320px;
+    margin: 20px auto;
 }
 
 .logo img{
     height: 48px;
-    width: 150px;
 }
 
 .nav-center ul{
